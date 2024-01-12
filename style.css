@@ -7,6 +7,9 @@ body{
     background-color: rgb(64, 63, 63);
     color: aliceblue;
 }
+body::-webkit-scrollbar {
+     display: none; 
+}
 nav{
     display: flex;
     align-items: center;
